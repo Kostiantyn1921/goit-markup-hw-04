@@ -172,7 +172,8 @@ ul {
 }
 
 .main-section {
-    background-color: #2e2f42;
+    background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),  url(/images/main-image.jpg);
+    background-size: cover;
     text-align: center;
     padding: 188px 0;
 }
@@ -244,6 +245,22 @@ button:focus {
     overflow: hidden;
 }
 
+.card-advantages {
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background-color: #f4f4fd;
+    margin-bottom: 8px;
+}
+
+.icon-advantages {
+    position: absolute; 
+    left: center; 
+    top: center;
+    transform: translate(40%, 20%);
+}
+
 .option {
     display: flex;
     gap: 24px;
@@ -286,7 +303,8 @@ button:focus {
     padding-left: 0; 
     margin: 0; 
     width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;         
+    border-radius: 0px 0px 4px 4px; 
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);       
     }
 
 .team-title-main{
@@ -322,6 +340,23 @@ button:focus {
     text-align: center;
     color: #434455;
     margin: 0;
+}
+
+.team-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 24px;
+    padding-top: 8px;
+}
+
+.team-social-icons {
+    fill: #4D5AE5;
+}
+
+.team-social-icons:hover {
+    fill: #404BBF;
 }
 
 h1 {
@@ -402,7 +437,7 @@ h3 {
     margin-bottom: 8px;
 }
 
-footer {
+.footer {
     background-color: #2e2f42;
     align-items: flex-start;
     justify-content: flex-start;
@@ -447,4 +482,33 @@ footer {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
+}
+
+.footer-subtitle {
+    position: relative;
+    top: -140px;
+    left: 384px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+
+.footer-social {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -140px;
+    left: 384px;
+    gap: 16px;
+}
+
+.footer-social-icons {
+    fill: #4D5AE5;
+}
+
+.footer-social-icons:hover {
+    fill: #31D0AA;
 }

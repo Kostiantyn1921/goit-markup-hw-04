@@ -40,7 +40,7 @@ address {
     margin-right: 0em;
 } 
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p, div {
     margin: 0;
 }
 
@@ -353,6 +353,10 @@ button:focus {
 .container-image {
     position: relative;
     overflow: hidden;
+}
+
+.portfolio-item:hover.container-text {
+    transform: translateY(0%);
 }
 
 .container-image:hover {

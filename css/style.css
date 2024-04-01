@@ -228,7 +228,7 @@ button:focus {
 }
 
 .main-section {
-    background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),  url(./images/main-image.jpg);
+    background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),  url(../images/main-image.jpg);
     background-size: cover;
     text-align: center;
     padding: 188px 0;
